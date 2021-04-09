@@ -618,7 +618,7 @@ header a.logo img {
 }
 
 .slider-image img {
-    top: -90px;
+    top: 50px;
     width: 100%;
     position: relative;
 }
@@ -1759,7 +1759,7 @@ header a.logo img {
         left: 82%;
     }
     .circle-five {
-        top: 76%;
+        top: 85%;
         left: 54%;
     }
 
@@ -1776,9 +1776,9 @@ header a.logo img {
         left: -3%;
     } 
 
-}/*
+}
 @media screen and (max-width: 1000px){
-    /*Portfolio
+    /*Portfolio*/
     .slider-text{
         font-size: 2vh;
     }
@@ -1790,6 +1790,7 @@ header a.logo img {
     }
     .slider-image img{
         width: 50%;
+        top:.17px;
     }
     .slider-content{
         position: absolute;
@@ -1799,7 +1800,7 @@ header a.logo img {
     .slider-content p{
         font-size: 1.5vh;
     }
-}*/
+}
 @media screen and (max-width: 991px) and (min-width: 768px){
 
     .h1, h1 {font-size: 58px;}
@@ -1953,9 +1954,11 @@ header a.logo img {
     }
    .slider-image{
        margin-right: 300px;
+       top: 25px;
    }
    .slider-image img{
        width: 70%;
+       
    }
     .circle {
         display: none;
@@ -1990,10 +1993,23 @@ header a.logo img {
     }
    
 }
+@media (max-width: 400px){
+    .slider-image{
+    display: none;
+    }
+    .slider-image img{
+        display: none;
+    }
+    .slider-text{
+
+    }
+
+}
 @media (max-width: 320px) {
     .side-menu .inner-wrapper {
         padding: 2rem 3rem;
     }
+
 }
 
 /* Portrait */
