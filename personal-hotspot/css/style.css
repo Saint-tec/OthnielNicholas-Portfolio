@@ -768,7 +768,11 @@ header a.logo img {
 .skill {
     text-transform: uppercase;
     font-weight: normal;
-    display: flex;
+    
+}
+
+.text-blue{
+   
 }
 
 .skill-box p {
@@ -1642,6 +1646,15 @@ header a.logo img {
         margin-top: 0!important;
     }
 }
+@media (max-width: 1324px){
+    .slider-text{
+        font-size: 7vh;
+    }
+    .text-gold{
+        font-size: 6vh;
+    }
+
+}
 
 @media (max-width: 1280px) and (min-width: 1210px) {
     /* Side Nav */
@@ -1798,7 +1811,7 @@ header a.logo img {
         left: 400px;
     }
     .slider-content p{
-        font-size: 1.5vh;
+        font-size: 2.5vh;
     }
 }
 @media screen and (max-width: 991px) and (min-width: 768px){
@@ -1950,15 +1963,18 @@ header a.logo img {
         text-align: center;
     }
     .slider-content{
-        top: 250px
+        top: 350px;
+        right:20px;
     }
    .slider-image{
-       margin-right: 300px;
-       top: 25px;
+    left: -189px;
+       top: 210px;
    }
    .slider-image img{
-       width: 70%;
-       
+       width: 60%;       
+   }
+   .slider-content p{
+       font-size: 15px;
    }
     .circle {
         display: none;
